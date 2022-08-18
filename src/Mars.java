@@ -40,7 +40,9 @@ public class Mars {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
         try {
-            landing = landingCheck(100);
+            landing = landingCheck(1);
+            GuessingGame gm=new GuessingGame();
+
         }
         catch (InterruptedException e)
             {
